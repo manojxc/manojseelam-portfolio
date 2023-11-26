@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Oswald&family=Oxygen:wght@700&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(199, 158, 158);
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh; 
+    font-weight: bold;
+    transition: transfrom 0.5s ease-in;
+}
+.sidebar nav{
+ padding: 15px;
+ height: 100vh;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 22px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.main{
+    background-color: white;
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.container2{
+    background-color: white;
+    height: 45vh;
+    width: 80vw;
+    margin: 134px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.myinfo{
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+
+}
+
+.hey{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.name{
+    font-size: 35px;
+    font-family: 'Fira Sans',sans-serif;
+    font-weight: bold;
+
+}
+.about{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
+.mydata{
+    font-size: 20px;
+    margin-top: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    padding: 8px 10px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(52, 60, 60);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 2px;
+    cursor: pointer;
+
+} 
+
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.buttons button:hover{
+    background-color:black;
+    color: rgb(255, 196, 0);
+}
+
+.mypic img{
+    height: 45vh;
+ 
+ }
+
+
+ .contactform{
+    padding: 0 24px;
+    padding-top: 110px;
+    font-family: 'Fira Sans', sans-serif;
+    margin:
+     0 160px ;
+}
+
+.contactform h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    padding: 19px 0;
+   
+    
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 16vw;
+    border-radius: 7px;
+    margin: 6px 0;
+    padding: 5px;
+}
+#emailHelp{
+    font-size: 13px;
+    color: brown;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+.form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 18px;
+    margin: 2px 0;
+
+}
+
+.blogcontainer{
+    font-size: 20px;
+    margin: 0px 175px;
+}
+.blogcontainer h1{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 20px;
+}
+.blogitem{
+    margin: 15px;
+    
+}
+.blogitem h2{
+    margin: 20px ;
+    font-family: Verdana,Tahoma, sans-serif;
+}
+.blogitem p b{
+  font-size: 20px;
+}
+.myintromain{
+    margin: 0px 175px;
+    padding: 10px;
+
+
+}
+.myintromain h1{
+    font-size: 45px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.myintromain p{
+    margin-top: 15px;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.myintromain h2{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.skillcontainer{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.skill{
+    padding: 5px;
+    width: 250px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.t5{
+    width: 155px;
+    background-color: rgb(246, 179, 24);
+}
+.f5{
+    width: 185px;
+    background-color: rgb(28, 246, 24);
+}
+.s5{
+    width: 225px;
+    background-color: rgb(249, 115, 5);
+
+}
+.myServices{
+    margin: 0px 185px;
+}
+.myServices h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 25px;
+    font-size: 30px;
+    background-color: antiquewhite;
+}
+.Servicesmain{
+    background-color: antiquewhite;
+}
+.scontainer{
+    background-color: antiquewhite;
+}
+
+.myServicesIntro h4{
+    margin: 10px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.myServicesIntro h3{
+    margin: 25px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.myServicesIntro p{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sidebarGo{
+    transform:translate(-423px,0px) ;
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cancel{
+    margin-left: 1px; 
+    margin-top: 1px;
+}
+@media (max-width: 1000px) {
+    .mypic{
+        display: none;
+    }
+    .myintromain .myServices .blogcontainer .contactform{
+         margin: 5px 1px ;
+    }
+}
